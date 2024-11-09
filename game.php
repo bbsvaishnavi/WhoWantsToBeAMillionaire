@@ -8,66 +8,67 @@ if (!isset($_SESSION['username'])) {
 
 $questions = [
     [
-        "question" => "Who wrote 'Hamlet'?", 
-        "options" => ["Shakespeare", "Tolkien", "Hemingway", "Orwell"], 
-        "correct" => "A", 
+        "question" => "What color are oranges?", 
+        "options" => ["Blue", "Black", "Orange", "Green"], 
+        "correct" => "C", 
         "prize" => 100
     ],
     [
-        "question" => "What is the largest desert in the world?", 
-        "options" => ["Sahara", "Arabian", "Gobi", "Antarctic"], 
-        "correct" => "A", 
+        "question" => "Who is the creator of Pokémon?", 
+        "options" => ["Hiroyuki Sanada", "Akira Kurosawa", "Satoshi Tajiri", "Takashi Mike"], 
+        "correct" => "C", 
         "prize" => 500
     ],
     [
-        "question" => "Which animated film features a character named Woody?", 
-        "options" => ["Toy Story", "Shrek", "Finding Nemo", "The Lion King"], 
-        "correct" => "A", 
+        "question" => "Is Y a vowel?", 
+        "options" => ["Yes", "Sometimes", "No", "Always"], 
+        "correct" => "C", 
         "prize" => 1000
     ],
     [
-        "question" => "What is the chemical symbol for gold?", 
-        "options" => ["Au", "Ag", "Pb", "Fe"], 
-        "correct" => "A", 
+        "question" => "What network is Lightning McQueen from?", 
+        "options" => ["PBS Kids", "Nicktoons", "Cartoon Network", "Disney Pixar"], 
+        "correct" => "D", 
         "prize" => 2000
     ],
     [
-        "question" => "Who wrote the play 'Romeo and Juliet'?", 
-        "options" => ["Charles Dickens", "Mark Twain", "William Shakespeare", "Jane Austen"], 
-        "correct" => "C", 
+        "question" => "Who is the current president?", 
+        "options" => ["Donald Trump", "Sir Topham Hat", "Ronald Reagan", "Willy Wonka"], 
+        "correct" => "A", 
         "prize" => 5000
     ],
     [
-        "question" => "Which ancient civilization built the pyramids?", 
-        "options" => ["Romans", "Greeks", "Egyptians", "Mayans"], 
-        "correct" => "C", 
+        "question" => "What video game characters specialize in plumbing?", 
+        "options" => ["Mario and Luigi", "Sonic and Tails", "Mega Man and Samus", "Sans and Papyrus"], 
+        "correct" => "A", 
         "prize" => 10000
     ],
     [
-        "question" => "What is the title of the famous song by Queen that begins with 'Is this the real life?'", 
-        "options" => ["Bohemian Rhapsody", "We Will Rock You", "Don't Stop Me Now", "Another One Bites the Dust"], 
-        "correct" => "A", 
+        "question" => "In A Bug's Life, what type of insect is Hopper?", 
+        "options" => ["Ladybug", "Grasshopper", "Tick", "Yellow Jacket"], 
+        "correct" => "B", 
         "prize" => 20000
     ],
     [
-        "question" => "What is the main ingredient in guacamole?", 
-        "options" => ["Tomato", "Avocado", "Onion", "Pepper"], 
-        "correct" => "B", 
+        "question" => "What is the name of TNT?", 
+        "options" => ["Uranium", "Vibranium", "Trinitrotoluene", "Titanium"], 
+        "correct" => "C", 
         "prize" => 50000
     ],
     [
-        "question" => "In which sport would you perform a slam dunk?", 
-        "options" => ["Soccer", "Basketball", "Tennis", "Baseball"], 
-        "correct" => "B", 
+        "question" => "What year was Pluto declared 'not a planet'?", 
+        "options" => ["2006", "1936", "1942", "1929"], 
+        "correct" => "A", 
         "prize" => 75000
     ],
     [
-        "question" => "What does 'HTTP' stand for in a website address?", 
-        "options" => ["HyperText Transfer Protocol", "HighText Transfer Protocol", "HyperText Transmission Protocol", "HighText Transmission Protocol"], 
+        "question" => "Who invented the lightbulb?", 
+        "options" => ["Thomas Edison", "George Washington Carver", "Willy Wonka", "Julius Caesar"], 
         "correct" => "A", 
         "prize" => 100000
     ]
 ];
+
 
 // Initialize session variables for the game
 if (!isset($_SESSION['questionIndex'])) {
