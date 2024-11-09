@@ -14,7 +14,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Reset game-related session variables for a new game
     unset($_SESSION['questionIndex']);
     unset($_SESSION['secondChanceUsed']);
-    unset($_SESSION['new_prize']);
 
     // session_destroy(); 
     header("Location: leaderboard.php"); 

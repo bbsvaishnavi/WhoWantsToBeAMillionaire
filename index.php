@@ -100,7 +100,7 @@ if (!isset($_SESSION['username'])) {
 
             <div class="instructions">
                 <p> A player can win from $100 to $100,000 by answering each question. A lifeline is provided 
-                    as second chance to select the answer for once upto 5th question. Game ends if the player
+                    as second chance to select the answer. Game ends if the player
                     selects a wrong answer. A player can exit the game by clicking on exit game 
                     button and submit the feedback.
                 </p>
